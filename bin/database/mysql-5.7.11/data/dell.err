@@ -1,0 +1,344 @@
+2017-09-05T12:57:10.675614Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-09-05T12:57:10.709840Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-09-05T12:57:10.709840Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-09-05T12:57:10.709840Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2017-09-05T12:57:10.710843Z 0 [Note] C:\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 2208 ...
+2017-09-05T12:57:11.648756Z 0 [ERROR] Can't open shared library 'C:\UwAmp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2017-09-05T12:57:11.664381Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2017-09-05T12:57:11.895794Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-09-05T12:57:11.914942Z 0 [Note] InnoDB: Uses event mutexes
+2017-09-05T12:57:11.917953Z 0 [Note] InnoDB: Memory barrier is not used
+2017-09-05T12:57:11.917953Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-09-05T12:57:12.016911Z 0 [Note] InnoDB: Number of pools: 1
+2017-09-05T12:57:12.033710Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2017-09-05T12:57:12.196115Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2017-09-05T12:57:12.233599Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-09-05T12:57:12.665337Z 0 [Note] InnoDB: Setting log file .\ib_logfile101 size to 48 MB
+2017-09-05T12:57:14.790919Z 0 [Note] InnoDB: Setting log file .\ib_logfile1 size to 48 MB
+2017-09-05T12:57:17.859734Z 0 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2017-09-05T12:57:17.940478Z 0 [Warning] InnoDB: New log files created, LSN=2602779
+2017-09-05T12:57:17.975485Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-09-05T12:57:18.022182Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2603020
+2017-09-05T12:57:18.022182Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2603029
+2017-09-05T12:57:18.022182Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2603029
+2017-09-05T12:57:18.039124Z 0 [Note] InnoDB: Database was not shutdown normally!
+2017-09-05T12:57:18.040492Z 0 [Note] InnoDB: Starting crash recovery.
+2017-09-05T12:57:25.701749Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-09-05T12:57:25.714786Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-09-05T12:57:27.118441Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2017-09-05T12:57:27.203582Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-09-05T12:57:27.219469Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-09-05T12:57:27.234851Z 0 [Note] InnoDB: Waiting for purge to start
+2017-09-05T12:57:27.297348Z 0 [Note] InnoDB: Waiting for purge to start
+2017-09-05T12:57:27.350744Z 0 [Note] InnoDB: Waiting for purge to start
+2017-09-05T12:57:27.419560Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 15070ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-09-05T12:57:27.435187Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2603029
+2017-09-05T12:57:27.554582Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2017-09-05T12:57:27.770434Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-09-05T12:57:29.930111Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-09-05T12:57:29.976991Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-09-05T12:57:29.976991Z 0 [Note] IPv6 is available.
+2017-09-05T12:57:29.976991Z 0 [Note]   - '::' resolves to '::';
+2017-09-05T12:57:29.976991Z 0 [Note] Server socket created on IP: '::'.
+2017-09-05T12:57:31.279128Z 0 [Note] InnoDB: Buffer pool(s) load completed at 170905 14:57:31
+2017-09-05T12:57:39.417898Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-09-05T12:57:39.433523Z 0 [Note] C:\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-09-05T13:00:05.705782Z 10 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:00:35.369421Z 0 [Note] C:\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2017-09-05T13:00:35.369421Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2017-09-05T13:00:35.369421Z 0 [Note] Shutting down slave threads
+2017-09-05T13:00:35.385043Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2017-09-05T13:00:35.385043Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2017-09-05T13:00:35.385043Z 0 [Note] Binlog end
+2017-09-05T13:00:35.400670Z 0 [Note] Shutting down plugin 'ngram'
+2017-09-05T13:00:35.416805Z 0 [Note] Shutting down plugin 'partition'
+2017-09-05T13:00:35.417805Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2017-09-05T13:00:35.418807Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2017-09-05T13:00:35.419808Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-09-05T13:00:35.421310Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-09-05T13:00:35.422312Z 0 [Note] Shutting down plugin 'MyISAM'
+2017-09-05T13:00:35.422813Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2017-09-05T13:00:35.422813Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-09-05T13:00:35.422813Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-09-05T13:00:35.422813Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-09-05T13:00:35.422813Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-09-05T13:00:35.422813Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-09-05T13:00:35.422813Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-09-05T13:00:35.422813Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-09-05T13:00:35.422813Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-09-05T13:00:35.438443Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-09-05T13:00:35.438443Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-09-05T13:00:35.438443Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-09-05T13:00:35.438443Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-09-05T13:00:35.438443Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-09-05T13:00:35.438443Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-09-05T13:00:35.438443Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-09-05T13:00:35.438443Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-09-05T13:00:35.438443Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2017-09-05T13:00:35.438443Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-09-05T13:00:35.438443Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-09-05T13:00:35.454070Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-09-05T13:00:35.454070Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-09-05T13:00:35.454070Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-09-05T13:00:35.454070Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-09-05T13:00:35.454070Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-09-05T13:00:35.454070Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-09-05T13:00:35.454070Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2017-09-05T13:00:35.454070Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-09-05T13:00:35.454070Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-09-05T13:00:35.454070Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2017-09-05T13:00:35.454070Z 0 [Note] Shutting down plugin 'InnoDB'
+2017-09-05T13:00:35.454070Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2017-09-05T13:00:35.469695Z 0 [Note] InnoDB: Starting shutdown...
+2017-09-05T13:00:35.585380Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2017-09-05T13:00:35.601012Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 170905 15:00:35
+2017-09-05T13:00:37.162995Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2603057
+2017-09-05T13:00:37.166500Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2017-09-05T13:00:37.168003Z 0 [Note] Shutting down plugin 'MEMORY'
+2017-09-05T13:00:37.169004Z 0 [Note] Shutting down plugin 'CSV'
+2017-09-05T13:00:37.170007Z 0 [Note] Shutting down plugin 'sha256_password'
+2017-09-05T13:00:37.171508Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2017-09-05T13:00:37.173010Z 0 [Note] Shutting down plugin 'binlog'
+2017-09-05T13:00:37.176515Z 0 [Note] C:\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2017-09-05T13:00:42.998151Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-09-05T13:00:42.998151Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-09-05T13:00:42.998151Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-09-05T13:00:42.998151Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2017-09-05T13:00:42.998151Z 0 [Note] C:\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 7688 ...
+2017-09-05T13:00:43.029279Z 0 [ERROR] Can't open shared library 'C:\UwAmp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2017-09-05T13:00:43.029279Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2017-09-05T13:00:43.029279Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-09-05T13:00:43.029279Z 0 [Note] InnoDB: Uses event mutexes
+2017-09-05T13:00:43.029279Z 0 [Note] InnoDB: Memory barrier is not used
+2017-09-05T13:00:43.029279Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-09-05T13:00:43.044902Z 0 [Note] InnoDB: Number of pools: 1
+2017-09-05T13:00:43.044902Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2017-09-05T13:00:43.129562Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2017-09-05T13:00:43.162624Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-09-05T13:00:43.327449Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-09-05T13:00:43.928501Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-09-05T13:00:43.931002Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-09-05T13:00:44.448065Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2017-09-05T13:00:44.463615Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-09-05T13:00:44.479241Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-09-05T13:00:44.479241Z 0 [Note] InnoDB: Waiting for purge to start
+2017-09-05T13:00:44.563545Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2603057
+2017-09-05T13:00:44.563545Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2017-09-05T13:00:44.563545Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-09-05T13:00:45.033648Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-09-05T13:00:45.033648Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-09-05T13:00:45.033648Z 0 [Note] IPv6 is available.
+2017-09-05T13:00:45.033648Z 0 [Note]   - '::' resolves to '::';
+2017-09-05T13:00:45.049276Z 0 [Note] Server socket created on IP: '::'.
+2017-09-05T13:00:45.725606Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-09-05T13:00:45.725606Z 0 [Note] C:\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-09-05T13:00:45.957412Z 0 [Note] InnoDB: Buffer pool(s) load completed at 170905 15:00:45
+2017-09-05T13:00:47.189548Z 2 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:00:57.424781Z 3 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:01:07.617618Z 4 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:01:11.709707Z 5 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:01:14.753089Z 6 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:01:19.936788Z 7 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:01:19.955348Z 7 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:01:20.187152Z 7 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:01:20.218404Z 7 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:01:21.557988Z 8 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:01:22.722939Z 9 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:02:34.735067Z 10 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:02:38.104098Z 11 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:02:43.193590Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:02:43.215730Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:02:43.231360Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:02:43.262613Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:02:50.103997Z 13 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:06:42.042143Z 0 [Note] C:\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2017-09-05T13:06:42.042143Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2017-09-05T13:06:42.042143Z 0 [Note] Shutting down slave threads
+2017-09-05T13:06:42.042143Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2017-09-05T13:06:42.042143Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2017-09-05T13:06:42.042143Z 0 [Note] Binlog end
+2017-09-05T13:06:42.042143Z 0 [Note] Shutting down plugin 'ngram'
+2017-09-05T13:06:42.042143Z 0 [Note] Shutting down plugin 'partition'
+2017-09-05T13:06:42.042143Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2017-09-05T13:06:42.057769Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2017-09-05T13:06:42.057769Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-09-05T13:06:42.057769Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-09-05T13:06:42.057769Z 0 [Note] Shutting down plugin 'MyISAM'
+2017-09-05T13:06:42.057769Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2017-09-05T13:06:42.057769Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-09-05T13:06:42.057769Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-09-05T13:06:42.057769Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-09-05T13:06:42.057769Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-09-05T13:06:42.057769Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-09-05T13:06:42.057769Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-09-05T13:06:42.057769Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-09-05T13:06:42.057769Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-09-05T13:06:42.073903Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-09-05T13:06:42.074903Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-09-05T13:06:42.076406Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-09-05T13:06:42.077407Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-09-05T13:06:42.078910Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-09-05T13:06:42.079912Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-09-05T13:06:42.079912Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-09-05T13:06:42.079912Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-09-05T13:06:42.079912Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2017-09-05T13:06:42.079912Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-09-05T13:06:42.079912Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-09-05T13:06:42.079912Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-09-05T13:06:42.079912Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-09-05T13:06:42.079912Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-09-05T13:06:42.079912Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-09-05T13:06:42.079912Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-09-05T13:06:42.079912Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-09-05T13:06:42.079912Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2017-09-05T13:06:42.095672Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-09-05T13:06:42.095672Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-09-05T13:06:42.095672Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2017-09-05T13:06:42.095672Z 0 [Note] Shutting down plugin 'InnoDB'
+2017-09-05T13:06:42.095672Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2017-09-05T13:06:42.095672Z 0 [Note] InnoDB: Starting shutdown...
+2017-09-05T13:06:42.211351Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2017-09-05T13:06:42.242619Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 170905 15:06:42
+2017-09-05T13:06:43.004925Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2603085
+2017-09-05T13:06:43.004925Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2017-09-05T13:06:43.004925Z 0 [Note] Shutting down plugin 'MEMORY'
+2017-09-05T13:06:43.004925Z 0 [Note] Shutting down plugin 'CSV'
+2017-09-05T13:06:43.004925Z 0 [Note] Shutting down plugin 'sha256_password'
+2017-09-05T13:06:43.004925Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2017-09-05T13:06:43.004925Z 0 [Note] Shutting down plugin 'binlog'
+2017-09-05T13:06:43.020551Z 0 [Note] C:\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2017-09-05T13:07:44.679535Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-09-05T13:07:44.679535Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2017-09-05T13:07:44.679535Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2017-09-05T13:07:44.679535Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2017-09-05T13:07:44.679535Z 0 [Note] C:\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 9232 ...
+2017-09-05T13:07:44.710792Z 0 [ERROR] Can't open shared library 'C:\UwAmp\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2017-09-05T13:07:44.710792Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2017-09-05T13:07:44.710792Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-09-05T13:07:44.726418Z 0 [Note] InnoDB: Uses event mutexes
+2017-09-05T13:07:44.726418Z 0 [Note] InnoDB: Memory barrier is not used
+2017-09-05T13:07:44.726418Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-09-05T13:07:44.726418Z 0 [Note] InnoDB: Number of pools: 1
+2017-09-05T13:07:44.726418Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2017-09-05T13:07:44.826716Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2017-09-05T13:07:44.842330Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-09-05T13:07:45.090498Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-09-05T13:07:45.622771Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-09-05T13:07:45.625776Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-09-05T13:07:46.535875Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2017-09-05T13:07:46.620390Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-09-05T13:07:46.636015Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-09-05T13:07:46.636015Z 0 [Note] InnoDB: Waiting for purge to start
+2017-09-05T13:07:46.708683Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2603085
+2017-09-05T13:07:46.710686Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2017-09-05T13:07:46.710686Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-09-05T13:07:47.072839Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-09-05T13:07:47.074342Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-09-05T13:07:47.074342Z 0 [Note] IPv6 is available.
+2017-09-05T13:07:47.074342Z 0 [Note]   - '::' resolves to '::';
+2017-09-05T13:07:47.074342Z 0 [Note] Server socket created on IP: '::'.
+2017-09-05T13:07:47.544354Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-09-05T13:07:47.545856Z 0 [Note] C:\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-09-05T13:07:48.454141Z 0 [Note] InnoDB: Buffer pool(s) load completed at 170905 15:07:48
+2017-09-05T13:08:13.108606Z 6 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:24.466311Z 7 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:24.497565Z 7 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:24.515706Z 7 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:24.535156Z 7 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:26.740677Z 8 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:30.280392Z 10 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:33.076267Z 11 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:37.843741Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:37.881512Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:38.128540Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:38.159792Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:38.159792Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:38.181435Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:39.383723Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:39.433107Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:39.448949Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:39.464358Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:39.502131Z 12 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:43.567444Z 14 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:08:44.666605Z 15 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:09:00.975668Z 16 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:09:00.997672Z 16 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:09:01.013465Z 16 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:09:01.044556Z 16 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:09:02.515761Z 17 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:10:20.643066Z 24 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:10:20.689940Z 24 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:10:22.123544Z 25 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:10:26.030599Z 28 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:10:27.066243Z 29 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:15:50.910138Z 34 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:15:50.957018Z 34 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:15:52.228863Z 35 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:16:02.282070Z 38 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:16:02.319652Z 38 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:16:03.862190Z 39 [Warning] InnoDB: Cannot open table basetest/tabletest from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2017-09-05T13:19:52.197739Z 0 [Note] C:\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2017-09-05T13:19:52.197739Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2017-09-05T13:19:52.197739Z 0 [Note] Shutting down slave threads
+2017-09-05T13:19:52.197739Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2017-09-05T13:19:52.197739Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2017-09-05T13:19:52.213366Z 0 [Note] Binlog end
+2017-09-05T13:19:52.213366Z 0 [Note] Shutting down plugin 'ngram'
+2017-09-05T13:19:52.213366Z 0 [Note] Shutting down plugin 'partition'
+2017-09-05T13:19:52.213366Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2017-09-05T13:19:52.213366Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2017-09-05T13:19:52.213366Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-09-05T13:19:52.213366Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-09-05T13:19:52.213366Z 0 [Note] Shutting down plugin 'MyISAM'
+2017-09-05T13:19:52.213366Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2017-09-05T13:19:52.213366Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-09-05T13:19:52.228993Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-09-05T13:19:52.228993Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-09-05T13:19:52.228993Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-09-05T13:19:52.228993Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-09-05T13:19:52.228993Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-09-05T13:19:52.228993Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-09-05T13:19:52.228993Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-09-05T13:19:52.228993Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-09-05T13:19:52.228993Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-09-05T13:19:52.228993Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-09-05T13:19:52.228993Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-09-05T13:19:52.228993Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-09-05T13:19:52.228993Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-09-05T13:19:52.245248Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-09-05T13:19:52.246757Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-09-05T13:19:52.248259Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2017-09-05T13:19:52.249629Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-09-05T13:19:52.250631Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-09-05T13:19:52.251134Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-09-05T13:19:52.251134Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-09-05T13:19:52.251134Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-09-05T13:19:52.251134Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-09-05T13:19:52.251134Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-09-05T13:19:52.251134Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-09-05T13:19:52.251134Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2017-09-05T13:19:52.251134Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-09-05T13:19:52.251134Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-09-05T13:19:52.251134Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2017-09-05T13:19:52.251134Z 0 [Note] Shutting down plugin 'InnoDB'
+2017-09-05T13:19:52.251134Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2017-09-05T13:19:52.266894Z 0 [Note] InnoDB: Starting shutdown...
+2017-09-05T13:19:52.382219Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\UwAmp\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2017-09-05T13:19:52.467380Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 170905 15:19:52
+2017-09-05T13:19:53.347533Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2607749
+2017-09-05T13:19:53.351039Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2017-09-05T13:19:53.352540Z 0 [Note] Shutting down plugin 'MEMORY'
+2017-09-05T13:19:53.353541Z 0 [Note] Shutting down plugin 'CSV'
+2017-09-05T13:19:53.355044Z 0 [Note] Shutting down plugin 'sha256_password'
+2017-09-05T13:19:53.356045Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2017-09-05T13:19:53.357547Z 0 [Note] Shutting down plugin 'binlog'
+2017-09-05T13:19:53.357547Z 0 [Note] C:\UwAmp\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
